@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should render as expected 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="search-form"
+    >
+      <label
+        className="search-form-label"
+        htmlFor="MovieSearch"
+      >
+        Search in TMDb
+      </label>
+      <input
+        aria-label="Search for a movie in The Movie Database"
+        className="search-form-input-field"
+        id="searchFormInPutField"
+        onChange={[Function]}
+        placeholder="Search for a movie"
+        required={true}
+        size="80"
+        type="search"
+      />
+      <button
+        className="search-form-button"
+        id="searchFormButton"
+        type="submit"
+      >
+        Search!
+      </button>
+    </div>
+  </form>
+  <SearchResults
+    results={Array []}
+  />
+</div>
+`;
