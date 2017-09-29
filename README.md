@@ -15,6 +15,7 @@ npm test
 ```
 
 To-do
- * using configuration API
+ * use configuration API
+ * use language file for text elements
  * add unit tests for the axios call
  * make the form less tied to movie search only
