@@ -1,0 +1,40 @@
+/*reset button */
+button {
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button; /* for input */
+}
+
+.search-form > label, input, button {
+  display: block;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+.search-form-label {
+  margin: 0 0 5px 0;
+  padding: 0 0 0 10px;
+}
+
+.search-form-input-field {
+  -webkit-appearance:textfield;
+  width: 100%;
+  padding: 0 8px 0;
+  line-height: 40px;
+}
+
+.search-form-button {
+  width: 100%;
+  line-height: 40px;
+  color: white;
+  background-color: #01d277;
+}
+
+.search-form-button:hover {
+  background-color: #081c24;
+}
